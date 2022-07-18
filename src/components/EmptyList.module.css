@@ -1,0 +1,18 @@
+.emptyList {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid var(--gray-400);
+    border-left: 1px transparent;
+    border-right: 1px transparent;
+    border-bottom: 1px transparent;
+    border-radius: 8px;
+    padding: 4rem 1.5rem;
+    gap: 16px;
+}
+
+ .emptyListTitle {
+    font-weight: bold;
+}

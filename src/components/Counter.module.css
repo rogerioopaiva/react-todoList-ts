@@ -1,0 +1,16 @@
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+    width: 1.57rem;
+    height: 1.19rem;
+    background-color: var(--gray-400);
+    border-radius: 999px;
+}
+
+.counter span {
+    color: #FFF;
+}
