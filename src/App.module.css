@@ -1,15 +1,6 @@
-.wrapper {
-  max-width: 90 rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  gap: 24px;
+@media (max-width: 752px) {
+  .app > *:not(header) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
-
-
-/* @media (max-width: 768px) {
-    html {
-      font-size: 87.5%;
-    }
-} */
